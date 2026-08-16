@@ -17,6 +17,8 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 import codingsamuraiLogo from './assets/company_logo/codingsamurai_logo.png';
+import pwcLogo from './assets/company_logo/pwc_logo.png';
+import bsercLogo from './assets/company_logo/bserc_logo.png';
 
 import pesLogo from './assets/education_logo/pes_logo.png';
 import jnanasudhaLogo from './assets/education_logo/jnanasudha_logo.png';
@@ -72,7 +74,7 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: codingsamuraiLogo,
+      img: pwcLogo,
       role: "Data Engineering Intern",
       company: "PwC",
       date: "Feb 2026 - Aug 2026",
@@ -86,7 +88,7 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      img: codingsamuraiLogo,
+      img: bsercLogo,
       role: "Def-Space Tech Intern",
       company: "Bharat Space Education Research Centre",
       date: "Jun 2026 - Jul 2026",
