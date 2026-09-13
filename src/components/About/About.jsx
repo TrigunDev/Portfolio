@@ -25,8 +25,7 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Fullstack Developer',
-                'Coder',
+                'Software Engineer',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -37,9 +36,9 @@ const About = () => {
               )}
             />
           </h3>
-          {/* Resume Button */}
-          {/* <a
-            href="https://drive.google.com/file/d/1_H1AS9KqCzQPdhlNtBvCSTjsWhm_C_9Z/view?usp=sharing"
+          Resume Button
+          {<a
+            href="https://drive.google.com/file/d/1a3PP3TxPGIeXN0nYHUGOjzjAjK8nEsnM/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -49,7 +48,7 @@ const About = () => {
             }}
           >
             DOWNLOAD CV
-          </a> */}
+          </a>}
           
         </div>
         {/* Right Side */}
