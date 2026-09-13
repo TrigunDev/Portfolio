@@ -36,7 +36,7 @@ const About = () => {
               )}
             />
           </h3>
-          Resume Button
+          {/* Resume Button */}
           {<a
             href="https://drive.google.com/file/d/1a3PP3TxPGIeXN0nYHUGOjzjAjK8nEsnM/view?usp=sharing"
             target="_blank"
