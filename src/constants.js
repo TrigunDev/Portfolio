@@ -1,20 +1,26 @@
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
+import streamlitLogo from './assets/tech_logo/streamlit.png'
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
-import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
+import fastapiLogo from './assets/tech_logo/fastapi.png';
+import mysqlLogo from './assets/tech_logo/mysql.png';
+import sqlLogo from './assets/tech_logo/sql.png';
+import langchainLogo from './assets/tech_logo/langchain.png';
+import chromadbLogo from './assets/tech_logo/chromadb.png';
+import scikitlearnLogo from './assets/tech_logo/scikitlearn.png';
+import dockerLogo from './assets/tech_logo/docker.png';
+import jiraLogo from './assets/tech_logo/jira.png';
+import postmanLogo from './assets/tech_logo/postman.png';
+
 
 import pwcLogo from './assets/company_logo/pwc_logo.png';
 
@@ -27,41 +33,51 @@ import pitchai from './assets/work_logo/pitchai.png';
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: 'Programming Languages',
+    skills: [
+      { name: 'C++', logo: cppLogo },
+      { name: 'Python', logo: pythonLogo },
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'SQL', logo: sqlLogo },
+      
+    ],
+  },
+  {
+    title: 'Frontend and Backend',
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-    ],
-  },
-  {
-    title: 'Backend',
-    skills: [
+      {name: 'Streamlit', logo: streamlitLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
+      { name: 'FastAPI', logo: fastapiLogo },  
+    ],
+  },
+  {
+    title: 'Databases',
+    skills: [
       { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'MySQL', logo: mysqlLogo},
     ],
   },
   {
-    title: 'Languages',
+    title: 'AI & LLM',
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'LangChain', logo: langchainLogo },
+      { name: 'ChromaDB', logo: chromadbLogo },
+      { name: 'Scikit-learn', logo: scikitlearnLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: 'DevOps & Tools',
     skills: [
+      { name: 'Docker', logo: dockerLogo},
       { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
+      { name: 'Jira', logo: jiraLogo},
+      { name: 'Postman', logo: postmanLogo },
       { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Vercel', logo: vercelLogo },
     ],
   },
 ];
