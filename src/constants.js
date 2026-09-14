@@ -138,16 +138,6 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      title: "Welth",
-      description:
-        "Developed an AI-powered finance platform featuring advanced analytics, smart receipt scanning, budget planning and real-time multi-currency support with secure multi-account management.",
-      image: welth,
-      tags: ["React JS", "Next JS", "Supabase", "Shadcn UI"],
-      github: "https://github.com/TrigunDev/welth",
-      webapp: "https://welth-chi-ebon.vercel.app/",
-    },
-    {
-      id: 3,
       title: "Thumblify",
       description:
         "Developed an AI-powered YouTube thumbnail generation platform using the Google Gemini API, enabling automated, scalable thumbnail creation with optimized APIs, secure key handling and efficient backend processing.",
