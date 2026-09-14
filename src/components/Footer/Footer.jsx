@@ -53,7 +53,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Trigun Gurumurti. All rights reserved.
+          © 2026 Trigun Gurumurti. All rights reserved.
         </p>
       </div>
     </footer>
