@@ -135,6 +135,7 @@ export const SkillsInfo = [
       image: classilog,
       tags: ["Scikit-learn", "BERT", "FastAPI"],
       github: "https://github.com/TrigunDev/ClassiLog",
+      webapp: "https://drive.google.com/file/d/1lq-iYlCVXfTGqK1O7mwIMtovB-T8yLIW/view?usp=sharing",
     },
     {
       id: 2,
