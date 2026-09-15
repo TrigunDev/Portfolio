@@ -20,6 +20,7 @@ import scikitlearnLogo from './assets/tech_logo/scikitlearn.png';
 import dockerLogo from './assets/tech_logo/docker.png';
 import jiraLogo from './assets/tech_logo/jira.png';
 import postmanLogo from './assets/tech_logo/postman.png';
+import llamaLogo from './assets/tech_logo/llama3.3.png';
 
 
 import pwcLogo from './assets/company_logo/pwc_logo.png';
@@ -66,6 +67,7 @@ export const SkillsInfo = [
     title: 'AI & LLM',
     skills: [
       { name: 'LangChain', logo: langchainLogo },
+      { name: 'Llama 3.3', logo: llamaLogo},
       { name: 'ChromaDB', logo: chromadbLogo },
       { name: 'Scikit-learn', logo: scikitlearnLogo },
     ],
