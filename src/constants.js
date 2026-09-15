@@ -125,7 +125,7 @@ export const SkillsInfo = [
       description:
         "Built an AI cold email generator for personalized outreach, engineered a vector database across portfolio entries, retrieved relevant links and integrated fast LLM inference to generate concise personalized emails.",
       image: pitchai,
-      tags: ["Python", "LangChain", "Streamlit", "ChromaDB", "Llama 3.3"],
+      tags: ["Python", "Streamlit", "LangChain", "Llama 3.3", "ChromaDB"],
       github: "https://github.com/TrigunDev/PitchAI",
       webapp: "https://ai-cold-email.streamlit.app/",
     },
@@ -135,7 +135,7 @@ export const SkillsInfo = [
       description:
         "Architected a hybrid log classifier for automated log classification, trained a text classification model and developed a backend to classify uploaded log CSVs and return labeled results via REST endpoints.",
       image: classilog,
-      tags: ["Scikit-learn", "BERT", "FastAPI"],
+      tags: ["Scikit-learn", "Regex", "BERT", "FastAPI"],
       github: "https://github.com/TrigunDev/ClassiLog",
       webapp: "https://drive.google.com/file/d/1lq-iYlCVXfTGqK1O7mwIMtovB-T8yLIW/view?usp=sharing",
     },
