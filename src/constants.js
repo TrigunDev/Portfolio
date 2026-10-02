@@ -27,9 +27,7 @@ import pwcLogo from './assets/company_logo/pwc_logo.png';
 
 import pesLogo from './assets/education_logo/pes_logo.png';
 
-import welth from './assets/work_logo/welth.png';
 import classilog from './assets/work_logo/classilog.png';
-import thumblify from './assets/work_logo/thumblify.png';
 import pitchai from './assets/work_logo/pitchai.png';
 
 export const SkillsInfo = [
@@ -138,15 +136,5 @@ export const SkillsInfo = [
       tags: ["Scikit-learn", "Regex", "BERT", "FastAPI"],
       github: "https://github.com/TrigunDev/ClassiLog",
       webapp: "https://drive.google.com/file/d/1lq-iYlCVXfTGqK1O7mwIMtovB-T8yLIW/view?usp=sharing",
-    },
-    {
-      id: 2,
-      title: "Thumblify",
-      description:
-        "Developed an AI-powered YouTube thumbnail generation platform using the Google Gemini API, enabling automated, scalable thumbnail creation with optimized APIs, secure key handling and efficient backend processing.",
-      image: thumblify,
-      tags: ["React JS", "Node JS", "Express JS", "MongoDB"],
-      github: "https://github.com/TrigunDev/Thumblify",
-      webapp: "https://thumblify-tau.vercel.app/",
     },
   ];  
